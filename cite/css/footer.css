@@ -1,0 +1,23 @@
+.footer {
+    padding-top: 20px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+    word-spacing: 40px;
+}
+.g:hover,.c:hover {
+    background-color: #5049f9;
+    transform: scale(1.3);
+}
+.fp {
+    padding-right: 50px;
+    color: #fff;
+    margin-top: 1px;
+    float: right;
+}
+tel {
+    color: white;
+    padding: 0px 20px 20px 0px;
+}

@@ -1,0 +1,95 @@
+body {
+    background-color: #c1f8f6;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    background: #c1f8f6;
+    height: auto;
+    width: 70%;
+    margin: 0;
+}
+        /*Page Home*/
+.lice {
+  display: flex;
+  flex-direction: row;
+}
+.face {
+    width: 500px;
+    float: left;
+    margin: 15px;
+    max-width:85%;
+    height:auto;
+    border-radius: 20px;
+    border: 3px solid;
+    box-shadow: 5px 5px 5px grey;
+}
+.other {
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.nic {
+    text-align: center;
+    font-size: 26px;
+    padding: 15px 0 0 10px;
+}
+.foto {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px; 
+    border: 3px solid;
+    word-spacing: 12px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 10px;
+}
+        /*Page News*/
+news {
+    background: #e0f8e6;
+    padding-left: 70px;
+    margin-left: 170px;
+    font-size: 36px;
+    height: 700px;
+    width: 60%;
+    
+}
+post {
+    text-align: center;
+    color: #062912;
+}
+        /*Page Contact*/
+.local {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 5px 25px 40px;
+}
+
+.soon {
+    font-size: 35px;
+    background: #c1f8f6;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
+mapouter {
+    width: auto;
+    height: auto;
+    border: 2px solid green;
+}    
+
+.map {
+    border: 2px solid green;
+    width: 850px;
+    height: 600px;
+    margin-left: 40px;
+}
+        /*Page Video*/
+

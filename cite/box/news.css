@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    background: #fff;
+    mmbackground-image:url("../images/voda.png");
+}
+article {
+    display: flex;
+    flex-direction: row;
+}
+.news {
+    background: #f8f6e0;
+    padding-left: 70px;
+    margin-left: 170px;
+    font-size: 36px;
+    height: 700px;
+    width: 60%;
+    
+}
+.post {
+    text-align: center;
+    color: #000;
+}
+.uln {
+     list-style-type: none;;
+}
+.h2n,.np {
+    text-align: center;    
+    color: red;
+    font-size: 46px;
+}
