@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Kiril Stoyanov">
+    <title>Test Cite</title>
+    <link rel="icon" type="image/x-icon" href="images/tt.png">    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="box/contact.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/footer.css">    
+  </head>
+            <!--Начало сраница Контакти!-->
+  <body onLoad="chas()">
+  
+    <!--Лого и Заглавие!-->
+    <header class="header">
+      <a href="https://opoznai.bg/view/iazovir-saedinenie" title="BG" ><!--//link to the page--> 
+        <img class="logo" src="images/tt.png" alt="BG Flag"/></a>
+      <h1>TARGOVISHTE</h1>
+      <h3 class="man"><em>TRAVEL</em></h3>
+    </header>    
+    
+            <!--Навигация!-->
+    <div class="navbar" id="myNavbar">
+    <ul class="nav">
+      <li class="nli"><a href="index.html">Home</a></li>
+      <li class="nli"><a href="news.html">News</a></li>
+      <li class="nli"><a href="contact.html">Contact</a></li>
+      <li class="nli"><a href="video.html">Video</a></li>
+      <li class="nli"><a href="blog.html">Blog</a></li>
+    </ul>
+    </div>
+    <div class="box"><!--main content-->
+    
+            <!--Странична лента!-->
+    <div class="sad">
+      <ol class="men">           
+        <li class="sli">Работно време</li>
+        <li class="sli">Адрес</li>
+        <li class="sli">Телефон</li>
+        <li class="sli">Имейл</li>
+      </ol>
+      
+        <!--Часовник!-->
+        <div id="time">
+        </div>
+      <!--Реклама!-->
+      <div class="bro">
+        <img class="bimg" src="images/bo.jpg" alt="Banner"/>
+      </div>     
+    </div>
+            
+            <!--Основно съдържание!-->
+    <div class="local">
+      <div class="soon">        
+          <h2>Форма за обратна връзка</h2>
+      <form action="contactpost.html" method="POST">
+      <table>
+      <tr><td>
+      Тема:
+      </td><td>
+      <input type="text" name="zaglavie" size="35" />
+      </td></tr><tr>
+      <td>
+      Имейл за контакт:
+      </td>
+      <td>
+      <input type="text" name="email" size="35" />
+      </td></tr><tr>
+      <td>
+      Вашето съобщение:
+      </td><td>
+      <textarea name="message" cols="35" rows="8">
+      </textarea>
+      <br />
+      <input class="bt" type="submit" value="Изпрати" />
+      </td>
+      </tr>
+      </table>
+      </form>
+      </div>
+
+          <!--Карта!-->
+      <div class='mapouter'>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2450.698960601356!2d25.62902886027229!3d43.07292889828807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbg!2sbg!4v1564335681757!5m2!1sbg!2sbg"  allowfullscreen></iframe>
+      </div>
+      </div>
+    </div>    
+    
+            <!--Зключение на сайта!-->
+    <footer class="footer">
+	    <a href="https://www.voipdiscount.com/login/" target="_blank"><!--social page-->	    
+	    <img class="c" src="images/call.png" alt="CALL"  width="20" height="20"></a>
+	    <a href="https://plus.google.com/about?hl=en" target="_blank">
+	    <img class="g" src="images/g.png" alt="G+" width="20" height="20"></a>
+	    <p class="fp">Copyright © 2022г.</p>
+    </footer>
+    
+            <!--Край на страницата!-->
+    <script src="js/map.js"></script>
+  </body>
+</html>
+

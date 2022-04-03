@@ -1,0 +1,17 @@
+ <?php
+$email_na_podatel = $_POST["email"];
+$zaglavie_na_saobshtenie = $_POST["zaglavie"];
+$message = $_POST["message"];
+$ot_kogo = "From: $email_na_podatel";
+mail("ekshan59@abv.bg", $zaglavie_na_saobshtenie, $message, $ot_kogo);
+?>
+<html>
+<head>
+<title>Успешно пратено съобщение</title>
+</head>
+<body>
+<h4>Благодарим ви! Вашето съобщение беше изпратено успешно.</h4>
+<a href="contact.html">Кликнете тук</a> за да се върнете в страница контакти.</br>
+<a href="index.html">Кликнете тук</a> за да се върнете на началната страница.
+</body>
+</html>

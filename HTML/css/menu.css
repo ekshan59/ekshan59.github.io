@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    padding-top: 10px;
+    background-color: #000;
+    height: 50px;
+    text-align: center;
+}
+.navbar,.nav,.nli {
+    display: flex;    
+    padding-left: 40px;    
+    margin: 0px;
+}
+.navbar a {
+    text-decoration: none;
+    list-style-type:none;
+    color: #fff;
+    padding: 10px;
+}
+a:hover {
+    color: #b563b4;
+    transform: scale(1.3);
+}
+
+    
+
+    
+

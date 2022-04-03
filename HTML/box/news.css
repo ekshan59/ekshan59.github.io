@@ -1,0 +1,66 @@
+.box {
+    display: flex;
+    background: #ccc;
+    mmbackground-image:url("../images/voda.png");
+}
+.article {
+    
+    display: flex;
+    flex-direction: row;
+}
+.news {
+    
+    padding-left: 70px;
+    margin: 5px 0 0 10px;
+    font-size: 36px;
+    height: 700px;
+    width: 60%;
+    
+}
+.post {
+    text-align: center;
+    color: #000;
+    mmpadding-top: 60px;
+}
+.uln {
+     list-style-type: none;;
+}
+.h2n,.np {
+       
+    color: red;
+    font-size: 38px;
+}
+.ban {
+    mmtext-align: center; 
+    height: 250px;
+    width: 270px;
+}
+.bin {
+    margin-left: 40px;
+    mmtext-align: center; 
+    height: 250px;
+    width: 270px;
+}
+@media all and (max-width: 600px) {
+    .box,.sad,article {
+       flex-wrap: wrap;
+       width: auto;
+       justify-content: center;
+    }
+    .h2n,.np {
+        margin: 20px 0 20px 0;
+        padding: 10px 0 0 0;
+        flex-wrap: wrap;
+        width: 50%;
+        font-size: 28px;
+    }
+    .header,.footer {
+       width: auto;
+     justify-content: center;   
+    }
+    .uli {
+        padding-left: 5px;
+        margin-left: 0px;
+        justify-content: center;
+    } 
+}
