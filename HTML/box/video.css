@@ -67,7 +67,7 @@ ol {
      justify-content: center;
     }  
     .header,.footer {
-       width: 96%;
+       width: auto;
      justify-content: center;   
     }
     .nli {
@@ -81,7 +81,7 @@ ol {
      justify-content: center;
     }  
     .header,.footer {
-       width: 98%;
+       width: auto;
      justify-content: center;   
     }
     .nli {
