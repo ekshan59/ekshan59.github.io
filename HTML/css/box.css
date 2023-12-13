@@ -2,12 +2,11 @@ body {
     background-color: #ccc;
     height: auto;
     width: 70%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 .box {
-    display: flex;
-    flex-direction: row;
     background: #ccc;
     height: auto;
     width: 70%;
@@ -15,8 +14,8 @@ body {
 }
         /*Page Home*/
 .lice {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .face {
     width: 500px;

@@ -1,6 +1,8 @@
 .box {
     display: flex;
-    background: #ccc;    
+    background: #ccc;
+    flex:1;
+    min-height: 100vh;
 }
 article {
     display: flex;
