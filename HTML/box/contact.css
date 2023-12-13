@@ -70,7 +70,7 @@ textarea {
 
 @media all and (max-width: 1000px) {
     .box,.local {
-     mmflex-wrap: wrap;
+     /*flex-wrap: wrap;*/
      justify-content: center;
     }  
     .local,.mapouter,.map {
